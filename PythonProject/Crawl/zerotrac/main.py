@@ -36,7 +36,7 @@ while 1:
         s = f'{num}. 题目链接是[{title}]({link}), 来自于{contest}, \t它对应的分数是{score}\n'
         num += 1
         file.write(s)
-    file.write('-'*40 + f'第{cnt}页结束' + '-' * 40 + '\n\n')
+    file.write('\n\n' + '-'*40 + f'第{cnt}页结束' + '-' * 40 + '\n\n')
     cnt += 1
     next_button = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".btn-next")))
     next_button.click()
