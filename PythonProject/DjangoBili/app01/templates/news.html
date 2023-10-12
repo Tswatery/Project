@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>news</title>
+</head>
+<body>
+
+<style>
+    a {
+        text-decoration: none;
+    }
+</style>
+
+<h1>联通新闻中心</h1>
+<ol>
+    {% for news in info_list %}
+        <li>{{ news.news_title }}, <a href="{{ news.news_link }}">文章链接</a></li>
+    {% endfor %}
+</ol>
+</body>
+</html>

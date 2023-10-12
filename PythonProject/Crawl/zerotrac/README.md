@@ -1,0 +1,1 @@
+使用selenium爬取[力扣分数评估网站](https://zerotrac.github.io/leetcode_problem_rating/#/)中1800到2000分之间的题，用于自我提升，希望年底之前能将leetcode分数提升到2000左右。
